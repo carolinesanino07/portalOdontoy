@@ -1,0 +1,30 @@
+/* CORES */
+
+:root{
+--verde-verao: #00CD66
+--verde-verao2: #008B45 
+--preto-pretao:000000
+--texto: #FFFFEO
+}
+
+/* ESTILO GERAIS */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: var(--verde-verao);
+    color: white;
+    list-style: 1.6;
+}
+
+/* CABEÇALHO */
+
+header{
+    background-color: var(--verde-verao);
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
+flex-direction: wrap;
+}
